@@ -1,0 +1,7 @@
+AutoMind URDF+ Viewer BUILD145 - Collada inline base64 texture transfer
+
+- Rewrites Collada <init_from> image references to data:image/...;base64,... before ColladaLoader parses the DAE.
+- Avoids fake Colab Blob texture requests such as blob:https://.../base.jpg, remote.jpg, face.jpg, handle.jpg, depth_camera.jpg.
+- Keeps ColladaLoader unit handling; no manual DAE scale multiplication.
+- Keeps BUILD138/BUILD141 visual-tree policy, components panel, viewer tools, joints, loops and couplings.
+- Uses jsDelivr-compatible classic Three r132 loaders.
