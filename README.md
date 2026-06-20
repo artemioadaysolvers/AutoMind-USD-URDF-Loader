@@ -1,4 +1,4 @@
- AutoMind USD & URDF Viewer for Web FrontEnd, Google Colab & Power BI   
+ AutoMind USD & URDF & MJCF Viewer for Web FrontEnd, Google Colab & Power BI   
     
    
  
